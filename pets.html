@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+  <title>Cozy House</title>
+</head>
+
+<body>
+  <header class="container header flex">
+    <a class="flex logo" href="index.html">
+      <span class="logo-title logo-title--pets">Cozy House</span>
+      <span class="logo-subtitle logo-subtitle--pets">Shelter for pets in Boston</span>
+    </a>
+    <nav class="nav flex">
+      <p class="nav__par"><a class="nav__item nav__item--pets" href="index.html">About the shelter</a></p>
+      <p class="nav__par"><a class="nav__item item-pets--active item--active nav__item--pets" href="#friends">Our
+          pets</a></p>
+      <p class="nav__par"><a class="nav__item nav__item--pets" href="index.html#help">Help the shelter</a></p>
+      <p class="nav__par"><a class="nav__item nav__item--pets" href="#footer">Contacts</a></p>
+    </nav>
+    <div class="burger flex burger--pets">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </div>
+    <div class="header__nav flex">
+      <div class="header__content flex">
+        <nav class="nav flex">
+          <p class="nav__par"><a class="nav__item" href="#about">About the shelter</a></p>
+          <p class="nav__par"><a class="nav__item item--active" href="pets.html">Our pets</a></p>
+          <p class="nav__par"><a class="nav__item" href="#help">Help the shelter</a></p>
+          <p class="nav__par"><a class="nav__item" href="#footer">Contacts</a></p>
+        </nav>
+        <div class="burger-menu">
+          <div class=" burger flex">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="friends friends--pets">
+      <div class="container flex friends__container--pets">
+        <h1 class="title title--friends title--pets">Our friends who
+          are&nbsp;looking for a house</h1>
+        <div class="swiper swiper--pets flex">
+          <div class="swiper__items swiper__items--pets flex">
+            <div class="swiper__item swiper__item--pets flex" data-path="item1" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-katrine.jpg" alt="Katrine cat">
+              <h3 class="title-small">Katrine</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item2" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-jennifer.jpg" alt="Jennifer dog">
+              <h3 class="title-small">Jennifer</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item3" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-woody.jpg" alt="Woody dog">
+              <h3 class="title-small">Woody</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item4" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-sophia.jpg" alt="Sophia dog">
+              <h3 class="title-small">Sophia</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item5" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-timmy.jpg" alt="Timmy cat">
+              <h3 class="title-small">Timmy</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item6" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-charly.jpg" alt="Charly dog">
+              <h3 class="title-small">Charly</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item7" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-scarlet.jpg" alt="Scarlett dog">
+              <h3 class="title-small">Scarlett</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+            <div class="swiper__item swiper__item--pets flex" data-path="item8" tabindex="1">
+              <img class="swiper__img" src="images/friends/pets-freddie.jpg" alt="Freddie cat">
+              <h3 class="title-small">Freddie</h3>
+              <button class="btn btn--swiper">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup-container flex">
+          <div class="popup-item flex" data-target="item1">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-katrine.jpg" alt="katrine">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Katrine</h3>
+                <h4 class="title-small title-small--popup">Cat - British Shorthair</h4>
+                <p class="descr descr--popup">Katrine is a beautiful girl. She is as soft as the finest velvet with a
+                  thick lush fur. Will love you until the last breath she takes as long as you are the one. She is
+                  picky about her affection. She loves cuddles and to stretch into your hands for a deeper
+                  relaxations.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item2">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-jennifer.jpg" alt="Jennifer">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Jennifer</h3>
+                <h4 class="title-small title-small--popup">Dog - Labrador</h4>
+                <p class="descr descr--popup">Jennifer is a sweet 2 months old Labrador that is patiently waiting to
+                  find a new forever home. This girl really enjoys being able to go outside to run and play, but won't
+                  hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item3">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-woody.jpg" alt="Woody">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Woody</h3>
+                <h4 class="title-small title-small--popup">Dog - Golden Retriever</h4>
+                <p class="descr descr--popup">Woody is a handsome 3 1/2 year old boy. Woody does know basic commands
+                  and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody
+                  will be happier when he finds a new family that can spend a lot of time with him.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item4">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-sophia.jpg" alt="Sophia">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Sophia</h3>
+                <h4 class="title-small title-small--popup">Dog - Shih tzu</h4>
+                <p class="descr descr--popup">Sophia here and I'm looking for my forever home to live out the best
+                  years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a
+                  leash, go potty outside, bark and play with toys and I still need some practice.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item5">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-timmy.jpg" alt="Timmy">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Timmy</h3>
+                <h4 class="title-small title-small--popup">Cat - British Shorthair</h4>
+                <p class="descr descr--popup">Timmy is an adorable grey british shorthair male. He loves to play and
+                  snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys
+                  being held. Timmy has a lot to say and wants a person to share his thoughts with.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item6">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-charly.jpg" alt="Charly">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Charly</h3>
+                <h4 class="title-small title-small--popup">Dog - Jack Russell Terrier </h4>
+                <p class="descr descr--popup">This cute boy, Charly, is three years old and he likes adults and kids.
+                  He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of
+                  energy, and loves to run and play. We think a fenced yard would make him very happy.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item7">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-scarlet.jpg" alt="Scarlett">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Scarlett</h3>
+                <h4 class="title-small title-small--popup">Dog - Jack Russell Terrier</h4>
+                <p class="descr descr--popup">Scarlett is a happy, playful girl who will make you laugh and smile. She
+                  forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion
+                  for a single individual too since she likes to hang out and be with her human.</p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup-item flex" data-target="item8">
+            <div class="cross flex">
+              <svg class="cross-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                    fill="#292929" />
+                </svg>
+            </div>
+            <div class="popup-item__container flex">
+              <img class="popup-item__img" src="./images/friends/pets-freddie.jpg" alt="Freddie">
+              <div class="popup-item__content">
+                <h3 class="title title--popup">Freddie</h3>
+                <h4 class="title-small title-small--popup">Cat - British Shorthair</h4>
+                <p class="descr descr--popup">Freddie is a little shy at first, but very sweet when he warms up. He
+                  likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human's
+                  daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.
+                </p>
+                <ul class="popup__list">
+                  <li class="popup__item"><b>Age:</b> 2 months</li>
+                  <li class="popup__item"><b>Inoculations:</b> none</li>
+                  <li class="popup__item"><b>Diseases</b> none</li>
+                  <li class="popup__item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-btn flex">
+          <button class="btn btn--pagination btn--disabled btn-left-end">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.9469 31.7852L13.9137 27.0879V25.9844L22.9469 21.2871V22.625L15.4371 26.5312L22.9469 30.4473V31.7852ZM37.018 31.7852L27.9848 27.0879V25.9844L37.018 21.2871V22.625L29.5082 26.5312L37.018 30.4473V31.7852Z"
+              />
+              <rect x="1" y="1" width="50" height="50" rx="25" stroke-width="2" />
+            </svg>
+          </button>
+          <button class="btn btn--pagination btn--disabled btn-left">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M29.9824 31.7852L20.9492 27.0879V25.9844L29.9824 21.2871V22.625L22.4727 26.5312L29.9824 30.4473V31.7852Z"
+               />
+              <rect x="1" y="1" width="50" height="50" rx="25" stroke-width="2" />
+            </svg>
+          </button>
+          <div class="page flex">1</div>
+          <button class="btn btn--pagination btn-right">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M30.041 27.0879L21.0078 31.7852V30.4473L28.5176 26.5312L21.0078 22.625V21.2871L30.041 25.9844V27.0879Z"
+                />
+              <rect x="1" y="1" width="50" height="50" rx="25" stroke-width="2" />
+            </svg>
+          </button>
+          <button class="btn btn--pagination btn-right-end">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23.0055 27.0879L13.9723 31.7852V30.4473L21.482 26.5312L13.9723 22.625V21.2871L23.0055 25.9844V27.0879ZM37.0766 27.0879L28.0434 31.7852V30.4473L35.5531 26.5312L28.0434 22.625V21.2871L37.0766 25.9844V27.0879Z"
+                />
+              <rect x="1" y="1" width="50" height="50" rx="25" stroke-width="2" />
+            </svg>
+          </button>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="footer gradient">
+    <div class="container flex footer__container">
+        <div class="footer__questions">
+          <h2 class="title title--footer">For questions and suggestions</h2>
+          <div class="footer__email">
+            <a class="title-small title-small--footer" href="mailto:email@shelter.com">email@shelter.com</a>
+          </div>
+          <div class="footer__tel">
+            <a class="title-small title-small--footer" href="tel:+136745677554">+13 674 567 75 54</a>
+          </div>
+        </div>
+        <div class="footer__location">
+          <h2 class="title title--footer">We are waiting for your visit</h2>
+          <div class="footer__boston">
+            <a class="title-small title-small--footer" href="https://goo.gl/maps/NjkpLzKREqiYKk3q9">1 Central Street,
+              Boston (entrance from the store)</a>
+          </div>
+          <div class="footer__london">
+            <a class="title-small title-small--footer" href="https://goo.gl/maps/rCnPvozQFYoU6MjF6">18 South Park,
+              London</a>
+          </div>
+        </div>
+      <picture class="footer__img">
+        <source media="(max-width: 480px)" srcset="images/footer/footer-puppy320.jpg">
+        <img src="images/footer/footer-puppy.jpg" alt="Puppy image">
+      </picture>
+    </div>
+
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="./js/sliderPets.js"></script>
+</body>
+
+</html>
